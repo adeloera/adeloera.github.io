@@ -1,0 +1,16 @@
+- name: Andres de Loera
+  photo: headshot.jpg
+  info: PhD Student, Harvard Economics
+  email: adeloerabrust@g.harvard.edu
+  cv: documents/cv.pdf
+  substack: https://andresdeloera.substack.com/
+  twitter: https://x.com/Andres_DLB
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "Ph.D. Economics, Harvard University (2026)",
+      "B.A. Economics, Harvard University (2020) ",
+    ]
+
+  educationshort:
+    ["PhD Economics, Harvard (2026)", "BA Economics, Harvard (2020)"]

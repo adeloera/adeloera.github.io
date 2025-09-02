@@ -39,9 +39,9 @@ img {
   border-radius:  7px;
   min-height:     1px;
   margin-top:    15px;
-  color: black;
+  color: gray;
   background-color: var(--gray);
-  border: 2px solid var(--gray-dark);
+  border: 2px solid var(--white);
   blockquote {
     border-color: var(--gray-dark);
     border-color: rgba(0,0,0,.15);
@@ -86,5 +86,5 @@ img {
 }
 
 .MathJax_ref {
-  fill: #00bc8c!important;
+  fill: #298094!important;
 }

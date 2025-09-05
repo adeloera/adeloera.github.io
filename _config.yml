@@ -28,6 +28,7 @@ contact: >
 nav_pages:
   - name: research
   - name: teaching
+  - name: blog
 
 include:
   - .htaccess

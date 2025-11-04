@@ -38,8 +38,6 @@ iframe {
 
 How significant is the common-pool problem in global fisheries, and how will climate change reshape it? Many fish populations cross national borders, diluting the incentive for governments to conserve. Climate change will upend the current equilibrium by altering biological productivity and by shifting species’ geographic ranges. These range shifts reallocate control across countries, potentially inducing maladaptive overexploitation by "stock-loser" and stronger conservation by "stock-gainers." I use species distribution modeling methods to construct a historical panel that tracks fishery ranges over time and document a strategic response: extraction from a transboundary stock increases as the managing country's share of the fishery declines. I then simulate future range shifts under climate change. The behavioral response to range shift is close to zero on net, but economically meaningful for individual fisheries: stock-gainers increase conservation by 1.6 million tons (2.6%) and stock-losers decrease conservation by 1.5 million tons (3%) due to range shift. For the average fishery, this strategic response comprises 25% of the total effect of climate change on the fish stock. Under first-best global cooperation, conservation increases by 87 million tons (77%). Under a more plausible U.S.–Canada agreement, conservation increases by 14% and the behavioral response to climate change is dampened by 66%.
 
-You can find the full paper here.
-
 The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/deLoera_JMP_fisheries.pdf">here</a>. 
 
 </div>

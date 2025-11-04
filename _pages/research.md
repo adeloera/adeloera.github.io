@@ -38,7 +38,7 @@ iframe {
 
 How significant is the common-pool problem in global fisheries, and how will it be affected by climate change? Many fish populations cross national borders, diluting the incentive for governments to conserve. Climate change will upend the current equilibrium by directly affecting fisheries productivity and by altering the distribution of fish populations as they migrate towards more favorable environments. The latter effect could lead to maladaptive overexploitation by stock-losers as it weakens incentives for conservation, but could also increase conservation by stock-gainers. I construct a panel of fishery ranges and show this strategic response in historical data: extraction rates rise as the share of a stock controlled by that country falls. I then simulate the effects of future climate change on fish ranges and extraction. The strategic response to range shift is close to zero on net, but economically meaningful for individual fisheries: stock-gainers increase conservation of the stock by 1.6 million tons (2.6%) and stock-losers decrease conservation by 1.5 million tons (3%) due to range shift. For the average fishery, this strategic response comprises 25% of the total effect of climate change on the fish stock.  I also simulate fisheries outcomes under first-best global cooperation, and find an 87 million ton (77%) increase in conservation. In a more plausible scenario of US-Canada cooperation, conservation increases by 14% and the behavioral response to climate change is dampened by 66%.
 
-The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/JMP.pdf">here</a>. 
+The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/deLoera_JMP_fisheries.pdf">here</a>. 
 
 </div>
 </div>
@@ -49,7 +49,7 @@ The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/J
 
 Countries facing over-exploitation of domestic waters may find it politically and economically advantageous to offer subsidies as a way of “decongesting" their domestic fisheries. Fuel subsidies, the most significant form of fisheries subsidies, may play such a role if they induce distant water fishing. We characterize the conditions under which fuel subsidies are decongesting and then estimate their empirical effects using a triple-difference design exploiting a change in Chinese subsidy policy. We show that China's fuel subsidy increased fishing in its domestic waters, by suppressing a 1.24% elasticity of domestic fishing with respect to the oil price. Meanwhile, it decreased distant water fishing. We also show that non-Chinese vessels in spatial competition with China decreased their fishing in response to China's subsidies. However, we show that the evolution of China's subsidy policy away from fuel subsidies and towards spatially specific subsidies did promote domestic decongestion: Had China not changed it subsidy policy, vessels in our sample would have fished 39% more in the Chinese EEZ and 33% less outside of it.
 
-The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/Subsidies.pdf">here</a>.
+The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/bermandeloera_fishsubsidies.pdf">here</a>.
 
 </div>
 </div>

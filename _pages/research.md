@@ -49,18 +49,29 @@ The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/d
 
 Countries facing over-exploitation of domestic waters may find it politically and economically advantageous to offer subsidies as a way of “decongesting" their domestic fisheries. Fuel subsidies, the most significant form of fisheries subsidies, may play such a role if they induce distant water fishing. We characterize the conditions under which fuel subsidies are decongesting and then estimate their empirical effects using a triple-difference design exploiting a change in Chinese subsidy policy. We show that China's fuel subsidy increased fishing in its domestic waters, by suppressing a 1.24% elasticity of domestic fishing with respect to the oil price. Meanwhile, it decreased distant water fishing. We also show that non-Chinese vessels in spatial competition with China decreased their fishing in response to China's subsidies. However, we show that the evolution of China's subsidy policy away from fuel subsidies and towards spatially specific subsidies did promote domestic decongestion: Had China not changed it subsidy policy, vessels in our sample would have fished 39% more in the Chinese EEZ and 33% less outside of it.
 
-The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/bermandeloera_fishsubsidies.pdf">here</a>.
+The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/Berman_deLoera_fishsubsidies.pdf">here</a>.
 
 </div>
 </div>
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4><b>Exploring and Mining the Deep Sea<b></h4>
+<h4><b>Permit Incentives and Taxonomic Precision: Strategic Underreporting in Deep-Sea Mining Data<b></h4>
 
-Efforts to balance deep-sea mineral exploration with environmental protection rely on biodiversity data reported by mining contractors to the International Seabed Authority (ISA). Yet contractors face conflicting incentives: while accurate species identification supports conservation, detailed taxonomic reporting may reveal rare or endemic species that complicate mining approvals. This paper investigates whether such incentives lead to taxonomic deflation—systematic underreporting of species-level identifications. Using data from the ISA’s DeepData database, it compares samples from prospective mining tracts with those from conservation zones known as Areas of Particular Environmental Interest (APEIs). Regression analyses show that APEI samples are 4–20% more likely to include species-level identifications, even after controlling for environmental and methodological factors. These findings indicate incentive-driven bias in biodiversity reporting and highlight the need for stronger oversight and transparency in deep-sea environmental governance.
+The International Seabed Authority (ISA) requires deep-sea mining contractors operating in international waters beyond national jurisdiction to conduct biological surveys of their prospectively-mined tracts, creating a public good as a byproduct of private exploration. However, contractors face a principal-agent problem: they have incentives to underinvest in species detection if discoveries could create obstacles to mining approval. I test for this "taxonomic deflation" using over 160,000 biological samples from the ISA's DeepData database, comparing taxonomic reporting detail in prospectively-mined tracts versus conservation zones. I show that samples from conservation zones are significantly more likely to report species-level identification, a pattern that persists after controlling for contractor identity, year, and environmental variables. A counterfactual exercise suggests that tens of thousands of additional observations would include species identifications absent the observed reporting gap. I discuss the ISA's exploration requirement as a second-best solution to the deep sea's public goods problem and consider policy options for mitigating the resulting incentive distortions.
 
-Currently under review. Draft available upon request. 
+The latest draft is available <a href="{{ site.url }}{{ site.baseurl }}/papers/deLoera_DSM_exploration.pdf">here</a>.
+
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h4><b>Decongestion as a Goal of Fisheries Subsidies<b></h4>
+
+When domestic fisheries are overexploited and fleet reduction is politically infeasible, governments may subsidize distant-water fishing to relocate effort offshore — a motive I call “decongestion.” A simple model shows how such subsidies can be domestically rational yet export overfishing to the high seas and foreign fisheries. Qualitative evidence from Chinese fisheries policy supports the mechanism, and the article discusses implications for international governance.
+
+Under Review. Draft available upon request. 
 
 </div>
 </div>

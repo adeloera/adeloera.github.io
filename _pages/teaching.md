@@ -7,7 +7,7 @@ permalink: /teaching/
 
 ## Teaching Philosophy 
 
-Teaching has been one of the highlights of my time in graduate school. I have been the course head of a small seminar class on Natural Resource Economics and the head teaching fellow for a mid-sized lecture course on The Economics of Climate Change and Environmental Policy. In that time I have taught students of various levels and backgrounds and created all kinds of assessments. I am a highly engaged and adaptable instructor, and am particularly excited about creating new courses and content for the era of generative AI. 
+Teaching is one of the highlights of my time in academia. I have been the course head of a small seminar class on Natural Resource Economics and the head teaching fellow for a mid-sized lecture course on The Economics of Climate Change and Environmental Policy. In that time I have taught students of various levels and backgrounds and created all kinds of assessments. I am a highly engaged and adaptable instructor, and am particularly excited about creating new courses and content for the era of generative AI. 
 
 ## Courses Taught
 

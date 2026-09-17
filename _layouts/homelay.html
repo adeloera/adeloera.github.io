@@ -1,11 +1,29 @@
 ---
 layout: default
 ---
+{% assign me = site.data.pi[0] %}
+<section class="hero row align-items-center gy-4 gx-lg-5">
+  <div class="col-md-7 col-lg-8 order-2 order-md-1">
+    <h1 class="hero-name">{{ me.name }}</h1>
+    <p class="hero-title">{{ me.title }}</p>
+    <ul class="hero-affil">
+      {% for a in me.affiliations %}
+      <li>{% if a.role %}{{ a.role }}, {% endif %}<a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.name }}</a></li>
+      {% endfor %}
+    </ul>
+    <div class="hero-links">
+      {% if me.email %}<a class="pill" href="mailto:{{ me.email }}">{% include icon.html name="mail" %}Email</a>{% endif %}
+      {% if me.cv %}<a class="pill" href="{{ me.cv | prepend: '/' | relative_url }}" target="_blank">{% include icon.html name="cv" %}CV</a>{% endif %}
+      {% if me.lab %}<a class="pill" href="{{ me.lab }}" target="_blank" rel="noopener">{% include icon.html name="anchor" %}{{ site.lab_name }}</a>{% endif %}
+      {% if me.twitter %}<a class="pill" href="{{ me.twitter }}" target="_blank" rel="noopener">{% include icon.html name="x" %}X</a>{% endif %}
+      {% if me.substack %}<a class="pill" href="{{ me.substack }}" target="_blank" rel="noopener">{% include icon.html name="substack" %}Substack</a>{% endif %}
+    </div>
+  </div>
+  <div class="col-md-5 col-lg-4 order-1 order-md-2 text-center text-md-end">
+    <img class="hero-photo" src="{{ me.photo | prepend: '/images/' | relative_url }}" alt="Portrait of {{ me.name }}">
+  </div>
+</section>
 
-  <div id="homeid" class="col-sm-7 col-xs-12">
-	{{ content }}
-  </div>
-  
-  <div id="newsid" class="col-sm-5 col-xs-12" >
-	{% include sidebar.html %}
-  </div>
+<div class="home-content">
+{{ content }}
+</div>

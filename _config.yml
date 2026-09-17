@@ -1,34 +1,51 @@
 # Site settings
-title: Andres de Loera
-email: adeloerabrust@g.harvard.edu
-description: Academic webpage of Andres de Loera
+title: Andrés de Loera
+email: andresdeloera@stanford.edu
+description: >-
+  Andrés de Loera is an Assistant Professor of Oceans at the Stanford Doerr School of
+  Sustainability and leads the Ocean Policy Lab. Natural resource economics, with a
+  particular focus on the ocean.
 baseurl: ""
 url: ""
 
-# Google analytics ID: Uncomment and your own, if you like
-# google_analytics: XX
-# google_analytics_4: XXX
-# google_tag_manager: XXX
+lab_name: Ocean Policy Lab
+lab_url: https://oceanpolicy.stanford.edu/
 
-# Footer info
+# Google Analytics / Tag Manager IDs: uncomment and fill in to enable tracking
+# google_analytics_4: G-XXXXXXXXXX
+# google_tag_manager: GTM-XXXXXXX
+
+# Footer text (HTML allowed)
 affiliation: >
-  Andres de Loera<br/>
-  PhD Student in Economics<br/>
-  Harvard University
+  Assistant Professor of Oceans<br/>
+  Stanford Doerr School of Sustainability<br/>
+  Center Fellow, Center on Food Security and the Environment
 
 location: >
-  Littauer Center for Public Administration <br/>
-  1805 Cambridge Street <br/>
-  Cambridge, MA 02138
+  Oceans Department<br/>
+  Stanford University<br/>
+  Stanford, CA 94305
 
 contact: >
-  <a href="mailto:adeloerabrust@g.harvard.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact me via email</a>
+  <a href="mailto:andresdeloera@stanford.edu">andresdeloera@stanford.edu</a><br/>
+  <a href="https://oceanpolicy.stanford.edu/" target="_blank" rel="noopener">Ocean Policy Lab website</a>
 
-# Pages shown in navbar
+# Links shown in the navigation bar, in order (Home is always first).
+#   newtab: true    opens the link in a new tab
+#   external: true  opens in a new tab and marks the link with an arrow
 nav_pages:
-  - name: research
-  - name: teaching
-  - name: blog
+  - name: Research
+    url: /research/
+  - name: Teaching
+    url: /teaching/
+  - name: Blog
+    url: /blog/
+  - name: CV
+    url: /documents/deLoera_cv.pdf
+    newtab: true
+  - name: Ocean Policy Lab
+    url: https://oceanpolicy.stanford.edu/
+    external: true
 
 include:
   - .htaccess
@@ -51,13 +68,13 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+  parse_block_html: true # lets Markdown be used inside HTML blocks
 
 plugins: ["jekyll/scholar"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: de Loera
+  first_name: [Andrés]
 
   style: citesty
   locale: en
@@ -83,7 +100,10 @@ scholar:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - update_boostrap.sh
-  - switch_theme.sh
+  - README.md
+  - LICENSE
+  - package.json
+  - update_bootstrap.sh
   - tags
-  - Rakefile
+  - .claude
+  - _cv

@@ -1,14 +1,13 @@
 ---
 title: "About"
-layout: homelay
+layout: page
 sitemap: false
 permalink: /about.html
 ---
 
-### Andres de Loera
+I am an Assistant Professor of Oceans at the [Stanford Doerr School of Sustainability](https://sustainability.stanford.edu/), Principal Investigator of the [Ocean Policy Lab](https://oceanpolicy.stanford.edu/), and a Center Fellow at the [Center on Food Security and the Environment](https://fse.fsi.stanford.edu/). I received my PhD in economics from Harvard University in 2026.
 
-My email is <a href="mailto:adeloerabrust@g.harvard.edu" target="_blank">adeloerabrust@g.harvard.edu</a>.
-
-You can find my CV <a href="{{ site.url }}{{ site.baseurl }}/documents/deLoera_cv.pdf" target="_blank">here</a> and my job market paper <a href="{{ site.url }}{{ site.baseurl }}/papers/deLoera_JMP_fisheries.pdf">here</a>.
-
-You can find me on <a href="https://x.com/Andres_DLB" target="_blank">Twitter</a> and <a href="https://andresdeloera.substack.com/" target="_blank">Substack</a>. 
+* Email: <a href="mailto:andresdeloera@stanford.edu">andresdeloera@stanford.edu</a>
+* CV: <a href="{{ '/documents/deLoera_cv.pdf' | relative_url }}" target="_blank">PDF</a>
+* Lab website: <a href="https://oceanpolicy.stanford.edu/" target="_blank" rel="noopener">oceanpolicy.stanford.edu</a>
+* Elsewhere: <a href="https://x.com/Andres_DLB" target="_blank" rel="noopener">X</a> and <a href="https://andresdeloera.substack.com/" target="_blank" rel="noopener">Substack</a>

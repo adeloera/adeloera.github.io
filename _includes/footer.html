@@ -1,27 +1,21 @@
-<br/>
-<section id="footer">
-<div class="container-footer">
-  <div class="panel-footer">
-	  <div class="row">
-		<div class="col-sm-4">
-		    <h5>About</h5>	
-            <p>{{ site.affiliation }}</p>
-		</div>
-
-		<div class="col-sm-4">
-		    <h5>Contact</h5>	
-            <p>{{ site.contact }}</p>
-		</div>
-
-		<div class="col-sm-4">
-		    <h5>Address</h5>	
-            <p>{{ site.location }}</p>
-		</div>
-	  </div>
-
-      <center><p>&copy {{ "now" | date: "%Y" }} {{site.title | escape }} </p></center>
-	</div>
+<footer class="site-footer">
+  <div class="container site-container">
+    <div class="row gy-3">
+      <div class="col-sm-4">
+        <h6>{{ site.title | escape }}</h6>
+        <p>{{ site.affiliation }}</p>
+      </div>
+      <div class="col-sm-4">
+        <h6>Contact</h6>
+        <p>{{ site.contact }}</p>
+      </div>
+      <div class="col-sm-4">
+        <h6>Address</h6>
+        <p>{{ site.location }}</p>
+      </div>
+    </div>
+    <p class="site-copy">&copy; {{ "now" | date: "%Y" }} {{ site.title | escape }}</p>
   </div>
-</div>
+</footer>
 
-<script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+<script src="{{ '/assets/javascript/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>

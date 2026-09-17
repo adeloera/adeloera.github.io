@@ -2,12 +2,22 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$baseurl: "{{ site.url }}{{ site.baseurl }}";
+// Site theme. Bootstrap variables are set here, before Bootstrap is imported;
+// everything else (layout, cards, navbar, footer) lives in _sass/site.scss.
 
-// @import "variables";
+$primary:           #297f94;   // teal from the site's fish icon
+$body-bg:           #fafaf8;
+$body-color:        #1f2a33;
+$link-color:        #1e6478;
+$link-hover-color:  #144a5a;
+
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-weight:   600;
+$font-size-base:         1.0625rem;
+$line-height-base:       1.6;
+$border-radius:          .5rem;
+
 @import "bootstrap/bootstrap";
-// @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
-// @import "bootstrap_customization";
-@import "bootstrap";
-@import "SHB_css";
+@import "site";

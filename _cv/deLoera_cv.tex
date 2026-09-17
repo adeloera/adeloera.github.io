@@ -1,0 +1,170 @@
+% Curriculum Vitae -- Andrés de Loera
+%
+% This is the LaTeX source of documents/deLoera_cv.pdf. The _cv/ folder starts
+% with an underscore, so Jekyll ignores it: nothing in here is published.
+%
+% To rebuild the PDF (run pdflatex twice so hyperref's links settle):
+%   cd _cv
+%   pdflatex deLoera_cv.tex && pdflatex deLoera_cv.tex
+%   cp deLoera_cv.pdf ../documents/deLoera_cv.pdf
+%
+% Based on the LaTeX Curriculum Vitae Template, Copyright (C) 2004-2009
+% Jason Blevins <jrblevin@sdf.lonestar.org>, http://jblevins.org/projects/cv-template/
+% The template may be used and redistributed freely; this notice is kept as requested.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}   % Palatino, with old-style figures
+\usepackage{geometry}
+\usepackage{sectsty}
+\usepackage{hyperref}
+
+\def\name{Andr\'es de Loera}
+\def\updated{September 2026}
+
+% PDF metadata
+\hypersetup{
+  colorlinks  = true,
+  urlcolor    = black,
+  pdfauthor   = {\name},
+  pdfkeywords = {environmental economics, natural resource economics, fisheries, oceans, public economics},
+  pdftitle    = {\name: Curriculum Vitae},
+  pdfsubject  = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Section fonts
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Lists without bullets, slightly tighter than the default
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\topsep}{3pt}
+    \setlength{\itemsep}{3pt}
+    \setlength{\parsep}{0pt}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+{\huge \name}
+
+\vspace{0.25in}
+
+\begin{minipage}[t]{0.5\textwidth}
+  \href{https://oceans.stanford.edu/}{Oceans Department} \\
+  \href{https://sustainability.stanford.edu/}{Stanford Doerr School of Sustainability} \\
+  \href{https://www.stanford.edu/}{Stanford University} \\
+  Stanford, CA 94305
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  Phone: (530) 219-5140 \\
+  Email: \href{mailto:andresdeloera@stanford.edu}{\texttt{andresdeloera@stanford.edu}} \\
+  Website: \href{https://www.andresdeloera.com/}{andresdeloera.com} \\
+  Lab: \href{https://oceanpolicy.stanford.edu/}{oceanpolicy.stanford.edu}
+\end{minipage}
+
+\section*{Positions}
+\begin{itemize}
+  \item Assistant Professor of Oceans, \href{https://oceans.stanford.edu/}{Oceans Department}, Stanford Doerr School of Sustainability, 2026--
+  \item Center Fellow, \href{https://fse.fsi.stanford.edu/}{Center on Food Security and the Environment}, Stanford University, 2026--
+\end{itemize}
+
+\section*{Education}
+\begin{itemize}
+  \item Ph.D., Economics, Harvard University, 2026
+  \begin{itemize}
+    \item Job Market Paper: ``Climate Change and the Common-Pool Problem in Fisheries''
+    \item Fields: Public, Environmental, and Natural Resource Economics
+    \item Advisors: Joe Aldy, Ed Glaeser, Wolfram Schlenker, Jim Stock, Charles Taylor
+  \end{itemize}
+  \item M.A., Economics, Harvard University, 2023
+  \item B.A., Economics (with High Honors), Harvard College, 2020
+  \begin{itemize}
+    \item Secondary field: Global Health and Health Policy
+    \item Awards: Magna Cum Laude, Phi Beta Kappa, Harvard College Scholar (top 10\% of class)
+    \item Senior Thesis: ``When a Shooting Becomes a Homicide: The Effect of Emergency Care Quality on Gunshot Lethality'' (Advisor: Anupam Jena)
+  \end{itemize}
+\end{itemize}
+
+\section*{Past Affiliations}
+\begin{itemize}
+  \item Doctoral Student Fellow, \href{https://heep.hks.harvard.edu/people/people-terms/pre-doctoral-fellows}{Harvard Environmental Economics Program}
+  \item Ocean Scholar, \href{https://www.oceanscholars.org/}{Harvard University Center for the Environment}
+\end{itemize}
+
+\section*{Awards, Fellowships and Grants}
+\begin{itemize}
+  \item National Marine Fisheries Service--Sea Grant Fellowship in Marine Resource Economics, 2024--2026
+  \item Chae Family Economics Research Grant on the Economics of Crises, 2022, 2023
+  \item Pre-Doctoral Fellowship on Carbon Pricing and Alternative Instruments in the Future of U.S. Energy and Climate Policy, 2022
+\end{itemize}
+
+\section*{Teaching Experience}
+Harvard University
+\begin{itemize}
+  \item Course Head, \textit{Economics 970: Natural Resource Economics} (Fall 2022, Fall 2023)
+  \item Head Teaching Fellow, \textit{Economics 1661/API 135: The Economics of Climate Change and Environmental Policy} (Spring 2023, 2024, 2025)
+\end{itemize}
+
+\section*{Professional Activities}
+\subsection*{Service}
+\begin{itemize}
+  \item Organizer, Harvard Graduate Student Workshop in Environmental Economics, 2022--2024
+  \item Non-Resident Tutor and Sophomore Advisor (Economics), Eliot House, Harvard College, 2022--2026
+  \item Mentor, Economics Mentoring Program, Harvard University, 2022--2024
+\end{itemize}
+
+\subsection*{Presentations}
+\begin{itemize}
+  \setlength{\itemindent}{.35in}
+  \item[2026] Blue Food Futures Program; Columbia University Workshop on Deep Sea Mining; LSE Environment Week; Heartland Workshop on Environmental and Resource Economics
+  \item[2025] North American Association of Fisheries Economists Biennial Forum; Global Food+ Symposium; National Marine Fisheries Service--Sea Grant Symposium; CU Environmental \& Resource Economics Workshop; Occasional Workshop in Environmental and Resource Economics; UC Davis NatuRE Policy Lab; MIT Blueprint Labs Junior Researcher Series; UH M\=anoa Workshop on Energy and Environmental Research
+  \item[2024] Eastern Economic Association Annual Conference
+  \item[2022] Oxford Workshop on Global Priorities Research
+\end{itemize}
+
+\section*{Working Papers}
+\begin{itemize}
+  \item ``\href{https://www.andresdeloera.com/papers/deLoera_JMP_fisheries.pdf}{Climate Change and the Common-Pool Problem in Fisheries}''
+  \item ``\href{https://www.andresdeloera.com/papers/Berman_deLoera_fishsubsidies.pdf}{Pay Thy Fisher; Beggar Thy Neighbor? China's Fishing Subsidies in the 21st Century}'' (with Aaron Berman)
+  \item ``\href{https://www.andresdeloera.com/papers/deLoera_DSM_exploration.pdf}{Strategic Underreporting Under Conditional Access: Evidence from Deep-Sea Mining}''
+  \item ``Decongestion as a Goal of Fisheries Subsidies'' (under review)
+\end{itemize}
+
+\section*{Work in Progress}
+\begin{itemize}
+  \item ``Mining, Critical Minerals, the Environment, and the Clean-Energy Transition'' (with Dale Squires and Pedro Madureira)
+  \item ``Shifting Baselines in Endangered Species Valuation'' (with Erica Chuang)
+\end{itemize}
+
+\section*{Other Writing}
+\begin{itemize}
+  \item ``\href{https://andresdeloera.substack.com/p/theres-more-than-one-kind-of-non}{There's more than one kind of `non-rival' and `non-excludable'}\thinspace'', \textbf{Substack}
+  \item ``\href{https://andresdeloera.substack.com/p/can-coase-or-pigou-stop-my-friend}{Can Coase or Pigou stop my friend from smoking?}'', \textbf{Substack}
+\end{itemize}
+
+\vspace{1.5em}
+{\small\itshape Updated \updated.}
+
+\end{document}

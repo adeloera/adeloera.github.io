@@ -5,10 +5,13 @@ sitemap: false
 permalink: /
 ---
 
-### About Me
+## About me
 
-I am a PhD student in economics at Harvard University. I study environmental and public economics with a focus on the governance of internationally shared resources. I am a NOAA-SeaGrant fellow in Marine Resource Economics and a doctoral student fellow of the Harvard Environmental Economics Program. I will join Stanford as an Assistant Professor in the Oceans Department and a Center Fellow of the Center on Food Security and the Environment in the fall of 2026.
+I am an economist and Assistant Professor of Oceans at the [Stanford Doerr School of Sustainability](https://sustainability.stanford.edu/), where I lead the [Ocean Policy Lab](https://oceanpolicy.stanford.edu/), and a Center Fellow at Stanford's [Center on Food Security and the Environment](https://fse.fsi.stanford.edu/). My research is in natural resource economics, with a particular focus on the ocean.
 
-My job market paper, <a href="{{ site.url }}{{ site.baseurl }}/papers/deLoera_JMP_fisheries.pdf">**Climate Change and the Common-Pool Problem in Fisheries**</a>, estimates how fisheries extraction is affected by split country control and how this will evolve as climate change shifts the habitable range of many fish populations.
+I received my PhD in economics from Harvard University in 2026, where I was a NOAA-Sea Grant Fellow in Marine Resource Economics and a doctoral student fellow of the Harvard Environmental Economics Program.
 
-Please feel free to contact me at <a href="mailto:adeloerabrust@g.harvard.edu" target="_blank">adeloerabrust@g.harvard.edu</a>.
+<div class="callout" markdown="1">
+<span class="callout-title">Now recruiting: a PhD student and a postdoc</span>
+The [Ocean Policy Lab](https://oceanpolicy.stanford.edu/) is recruiting its first cohort of PhD students, to start in Fall 2027, and is seeking a postdoctoral researcher in marine resource economics. Prospective PhD students apply through the [Stanford Oceans PhD program](https://oceans.stanford.edu/academics-admissions/graduate-program/admissions) (applications are due December 2, 2026). If you are interested in working with me, please email me your CV and a short description of your research interests. Prospective postdocs should email me to discuss project ideas. More details are on the [lab's team page](https://oceanpolicy.stanford.edu/team).
+</div>

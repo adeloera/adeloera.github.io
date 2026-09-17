@@ -1,16 +1,15 @@
-- name: Andres de Loera
-  photo: headshot.jpg
-  info: PhD Student, Harvard Economics
-  email: adeloerabrust@g.harvard.edu
+# Profile shown in the header of the home page (see _layouts/homelay.html).
+- name: Andrés de Loera
+  photo: headshot_web.jpg
+  title: Assistant Professor of Oceans, Stanford University
+  affiliations:
+    - name: Oceans Department, Stanford Doerr School of Sustainability
+      url: https://oceans.stanford.edu/
+    - role: Center Fellow
+      name: Center on Food Security and the Environment
+      url: https://fse.fsi.stanford.edu/
+  email: andresdeloera@stanford.edu
   cv: documents/deLoera_cv.pdf
+  lab: https://oceanpolicy.stanford.edu/
   substack: https://andresdeloera.substack.com/
   twitter: https://x.com/Andres_DLB
-  # Change the items in "education" you have (up to 6)
-  education:
-    [
-      "Ph.D. Economics, Harvard University (2026)",
-      "B.A. Economics, Harvard University (2020) ",
-    ]
-
-  educationshort:
-    ["PhD Economics, Harvard (2026)", "BA Economics, Harvard (2020)"]

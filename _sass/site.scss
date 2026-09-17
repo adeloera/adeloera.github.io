@@ -1,0 +1,301 @@
+// Styles for andresdeloera.com. Colors are defined once here as CSS variables;
+// fonts and Bootstrap-wide settings are in assets/main.scss.
+
+:root {
+  --ink: #1f2a33;
+  --muted: #5f6b73;
+  --accent: #297f94;
+  --accent-dark: #1e6478;
+  --accent-soft: #e7f2f5;
+  --line: #e2e6e8;
+  --card: #ffffff;
+  --paper: #fafaf8;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; }
+
+.site-container { max-width: 900px; }
+
+.site-main {
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+// ---- Navigation bar --------------------------------------------------------
+
+.site-nav {
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: .55rem;
+    font-family: $headings-font-family;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--ink);
+
+    img { width: 28px; height: 28px; border-radius: 6px; }
+  }
+
+  .nav-link {
+    color: var(--muted);
+    font-weight: 600;
+    font-size: .95rem;
+    padding: .35rem .7rem;
+    margin: .1rem .1rem;
+    border-radius: .4rem;
+
+    &:hover, &:focus, &.active {
+      color: var(--accent-dark);
+      background: var(--accent-soft);
+      text-decoration: none;
+    }
+
+    .icon-external {
+      width: .75em;
+      height: .75em;
+      margin-left: .3em;
+      vertical-align: 0;
+      opacity: .7;
+    }
+  }
+
+  .navbar-toggler { border-color: var(--line); }
+}
+
+// ---- Home page header ------------------------------------------------------
+
+.hero {
+  padding: 1rem 0 1.25rem;
+}
+
+.hero-name {
+  font-size: 2.3rem;
+  letter-spacing: -.01em;
+  margin-bottom: .3rem;
+}
+
+.hero-title {
+  font-size: 1.2rem;
+  margin-bottom: .4rem;
+}
+
+.hero-affil {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.1rem;
+  color: var(--muted);
+
+  li { margin-bottom: .15rem; }
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .4rem .9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: .92rem;
+
+  .icon { width: 1em; height: 1em; }
+
+  &:hover, &:focus {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent-dark);
+    text-decoration: none;
+  }
+}
+
+.hero-photo {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(20, 40, 50, .16);
+}
+
+@media (min-width: 768px) {
+  .hero { padding: 1.5rem 0 1.75rem; }
+  .hero-name { font-size: 2.8rem; }
+}
+
+// ---- Headings and text -----------------------------------------------------
+
+.page-title {
+  font-size: 2.1rem;
+  margin: .5rem 0 1.25rem;
+}
+
+.page-content h2, .home-content h2 {
+  font-size: 1.5rem;
+  margin-top: 2.25rem;
+  margin-bottom: .9rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.home-content h2:first-child, .page-content h2:first-child { margin-top: 1rem; }
+
+.page-content h3, .home-content h3 { font-size: 1.2rem; }
+
+// ---- Callout (e.g. recruiting notice) ---------------------------------------
+
+.callout {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: .5rem;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0 1.5rem;
+
+  p:last-child { margin-bottom: 0; }
+}
+
+.callout-title {
+  display: block;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: .35rem;
+}
+
+// ---- Cards: papers and courses --------------------------------------------
+
+.paper {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: .75rem;
+  padding: 1.15rem 1.35rem;
+  margin-bottom: 1rem;
+}
+
+.paper-title {
+  font-size: 1.2rem;
+  line-height: 1.35;
+  margin: 0 0 .3rem;
+
+  a { color: var(--ink); }
+  a:hover { color: var(--accent-dark); }
+}
+
+.paper-meta {
+  color: var(--muted);
+  font-size: .95rem;
+  margin-bottom: .5rem;
+}
+
+.paper-status {
+  display: inline-block;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+  padding: .1rem .55rem;
+  border-radius: 999px;
+  margin-right: .3rem;
+  vertical-align: .05em;
+}
+
+.paper-abstract {
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent-dark);
+  }
+  p { margin: .6rem 0 .4rem; }
+}
+
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: .6rem 0 0;
+}
+
+.paper p:last-child { margin-bottom: 0; }
+
+// ---- Lists ----------------------------------------------------------------
+
+.work-list {
+  padding-left: 1.2rem;
+
+  li { margin-bottom: .7rem; }
+}
+
+.quotes {
+  list-style: none;
+  padding: 0;
+  margin: .75rem 0 0;
+
+  li {
+    border-left: 3px solid var(--line);
+    padding: .1rem 0 .1rem 1rem;
+    margin-bottom: .9rem;
+  }
+
+  .who {
+    display: block;
+    color: var(--muted);
+    font-size: .9rem;
+    margin-top: .2rem;
+  }
+}
+
+// ---- Footer ---------------------------------------------------------------
+
+.site-footer {
+  background: #fff;
+  border-top: 1px solid var(--line);
+  margin-top: 1.5rem;
+  padding: 2rem 0 1.25rem;
+  color: var(--muted);
+  font-size: .95rem;
+
+  h6 {
+    font-family: $headings-font-family;
+    font-size: 1rem;
+    color: var(--ink);
+    margin-bottom: .5rem;
+  }
+
+  p { margin-bottom: 0; }
+}
+
+.site-copy {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: .85rem;
+}
+
+// ---- Misc -----------------------------------------------------------------
+
+.substack-embed {
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: .5rem;
+  background: #fff;
+}

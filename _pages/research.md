@@ -31,7 +31,7 @@ My research is in natural resource economics, with a particular focus on the oce
 
 <article class="paper" markdown="0">
 <h3 class="paper-title"><a href="{{ '/papers/deLoera_DSM_exploration.pdf' | relative_url }}">Strategic Underreporting Under Conditional Access: Evidence from Deep-Sea Mining</a></h3>
-<p class="paper-meta"><span class="paper-status">Working paper</span> Latest draft: July 2026</p>
+<p class="paper-meta"><span class="paper-status">Working paper</span> Latest draft: October 2026</p>
 <details class="paper-abstract">
 <summary>Abstract</summary>
 <p>The International Seabed Authority (ISA) requires deep-sea mining contractors operating in international waters beyond national jurisdiction to conduct biological surveys of their prospectively-mined tracts, creating a public good as a byproduct of private exploration. However, contractors face a principal-agent problem: they have incentives to underinvest in species detection if discoveries could create obstacles to mining approval. I test for this “taxonomic deflation” using over 160,000 biological samples from the ISA’s DeepData database, comparing taxonomic reporting detail in prospectively-mined tracts versus non-contract areas. I show that samples from non-contract areas are significantly more likely to report species-level identification, a pattern that persists after controlling for contractor identity, year, and environmental variables. A counterfactual exercise suggests that tens of thousands of additional observations would include species identifications absent the observed reporting gap. I discuss the ISA’s exploration requirement as a second-best solution to the deep sea’s public goods problem and consider policy options for mitigating the resulting incentive distortions.</p>

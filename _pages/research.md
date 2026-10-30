@@ -48,7 +48,27 @@ My research is in natural resource economics, with a particular focus on the oce
 </details>
 </article>
 
+<article class="paper" markdown="0">
+<h3 class="paper-title">Don’t Tax Discovery to Fund the High Seas Treaty</h3>
+<p class="paper-meta"><span class="paper-status">Under review</span></p>
+</article>
+
 ## Work in progress
+
+<article class="paper" markdown="0">
+<h3 class="paper-title">Shifting Baselines in Endangered Species Valuation</h3>
+<p class="paper-meta"><span class="paper-status">In progress</span> with Erica Chuang</p>
+</article>
+
+<article class="paper" markdown="0">
+<h3 class="paper-title">Policing Sea from Shore: Port State Measures and the Limits of Enforcement Beyond National Jurisdiction</h3>
+<p class="paper-meta"><span class="paper-status">In progress</span></p>
+</article>
+
+<article class="paper" markdown="0">
+<h3 class="paper-title">Position in the Thermal Range and the Recruitment Response to Temperature in Assessed Fish Stocks</h3>
+<p class="paper-meta"><span class="paper-status">In progress</span></p>
+</article>
 
 <article class="paper" markdown="0">
 <h3 class="paper-title">Mining, Critical Minerals, the Environment, and the Clean-Energy Transition</h3>
@@ -57,9 +77,4 @@ My research is in natural resource economics, with a particular focus on the oce
 <summary>Abstract</summary>
 <p>This paper describes the modern problem of critical mineral supply with respect to the choice between terrestrial and deep-seabed mining. We describe the global utilitarian social planner’s optimum and then introduce institutional features that drive a wedge between that optimum and the realized outcome. While the issues facing terrestrial mining are common in many settings, we introduce several unusual features of the management of deep-seabed mining which diverge from the global utilitarian social planner’s optimum. Deep-seabed mining in areas beyond national jurisdiction is governed by an international social planner, but its objective function is non-utilitarian. We discuss how some of its legal mandates can be interpreted for economic purposes, such as revenue sharing, and explain how these principles can apply in the cases of other international commons.</p>
 </details>
-</article>
-
-<article class="paper" markdown="0">
-<h3 class="paper-title">Shifting Baselines in Endangered Species Valuation</h3>
-<p class="paper-meta"><span class="paper-status">In progress</span> with Erica Chuang</p>
 </article>

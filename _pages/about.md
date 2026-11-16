@@ -5,7 +5,7 @@ sitemap: false
 permalink: /about.html
 ---
 
-I am an Assistant Professor of Oceans at the [Stanford Doerr School of Sustainability](https://sustainability.stanford.edu/), Principal Investigator of the [Ocean Policy Lab](https://oceanpolicy.stanford.edu/), and a Center Fellow at the [Center on Food Security and the Environment](https://fse.fsi.stanford.edu/). I received my PhD in economics from Harvard University in 2026.
+I am an Assistant Professor of Oceans at the [Stanford Doerr School of Sustainability](https://sustainability.stanford.edu/), Principal Investigator of the [Ocean Policy Lab](https://oceanpolicy.stanford.edu/), and a Center Fellow at the [Center on Food Security and the Environment](https://fse.fsi.stanford.edu/). I study marine resource economics and governance, especially to inform international policy in settings with shared ocean resources. I received my PhD in economics from Harvard University in 2026.
 
 * Email: <a href="mailto:andresdeloera@stanford.edu">andresdeloera@stanford.edu</a>
 * CV: <a href="{{ '/documents/deLoera_cv.pdf' | relative_url }}" target="_blank">PDF</a>
